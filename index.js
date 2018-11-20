@@ -13,9 +13,11 @@
  * 
  */
 const express = require('express'),
-      bodyParser = require('body-parser');
-const ZonesDB = require('./lib/zones_db');
-let zones_db = new ZonesDB();
+    bodyParser = require('body-parser'),
+    ZonesDB = require('./lib/zones_db');
+
+const params = require('./bind-config.json');
+let zones_db = new ZonesDB(params);
 
 
 const PORT = 3000;

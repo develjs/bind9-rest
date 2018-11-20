@@ -64,3 +64,6 @@ typings/
 /.tern-port
 /.tern-project
 /*.workspace
+
+# app files
+/bind-config.json
