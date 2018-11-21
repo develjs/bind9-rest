@@ -16,7 +16,7 @@ and include it to main zones config
     include "/etc/bind/zones/named.conf";
 
 
-## 3. init and params about bind9 (bind-config.json)
+## 3. init and change params for bind9 (bind-config.json)
     
     npm run init
 
