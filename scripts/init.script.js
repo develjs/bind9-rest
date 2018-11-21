@@ -1,12 +1,5 @@
 #! /usr/bin/env node
 /**
- * npm start version [-- quiet]
- * change version in:
- * electron_app/package.json
- * package.json
- * src/settings.h
- * src/resources/Info.plist
- * mobirise_android/app/build.gradle
  */
 const fs = require('fs');
 const readline = require('readline');
