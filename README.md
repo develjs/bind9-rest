@@ -1,20 +1,26 @@
-## install bind9
+## 1. install bind9
+
     sudo apt-get install bind9
     # and stop immediately
     sudo service bind9 stop 
 
-# make zone file
-/etc/bind/zones/named.conf
+## 2. make zone file
 
-# and include to to main zones config
+    /etc/bind/zones/named.conf
+    
 
-        # /etc/bind/named.conf
-        ...
-        include "/etc/bind/zones/named.conf";
+and include it to main zones config
 
-# init and params about bind9 (bind-config.json)
-npm run init
+    # /etc/bind/named.conf
+    ...
+    include "/etc/bind/zones/named.conf";
 
-## start rect server
-npm start
+
+## 3. init and params about bind9 (bind-config.json)
+    
+    npm run init
+
+## 4. start rect server
+    
+    npm start
 
