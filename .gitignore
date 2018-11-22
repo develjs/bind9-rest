@@ -64,6 +64,7 @@ typings/
 /.tern-port
 /.tern-project
 /*.workspace
+/.codelite
 
 # app files
 /bind-config.json
